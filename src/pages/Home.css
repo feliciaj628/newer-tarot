@@ -1,0 +1,53 @@
+.thumbnail-container-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.testimonial-container {
+  display: flex;
+}
+
+.sales-container {
+  height: 100%;
+  width: 55%;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-heading {
+  /* background-color: rgb(249, 247, 246);
+  box-shadow: 0 0 10px rgb(68, 65, 63); */
+  background-color: rgb(242, 239, 238);
+  color: rgb(70, 70, 73);
+
+  font-size: 40px;
+  font-family: "Cormorant SC";
+  text-align: center;
+
+  border-radius: 80px;
+  margin-bottom: 0px;
+  margin-top: 115px;
+
+  padding: 40px 70px 50px 70px;
+  z-index: 1;
+}
+
+.data {
+  font-size: 20px;
+  margin-bottom: 55px;
+  margin-top: 25px;
+  font-family: "Cormorant";
+  color: rgb(70, 70, 73);
+  z-index: 1;
+}
+
+.data-li {
+  font-size: 28px;
+  margin-bottom: 55px;
+  font-family: "Cormorant";
+  color: rgb(70, 70, 73);
+}

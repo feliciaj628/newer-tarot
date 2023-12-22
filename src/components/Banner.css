@@ -1,0 +1,122 @@
+img {
+  height: auto;
+  width: 100vw;
+  z-index: -1;
+  position: static;
+}
+
+.banner {
+  height: 80vh;
+  width: 100vw;
+  padding: 110px 180px;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-heading {
+  font-family: "Cormorant SC";
+  font-size: 75px;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  word-wrap: wrap;
+  max-width: 75vw;
+}
+
+.banner-heading-2 {
+  font-family: "Cormorant SC";
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(232, 232, 232);
+  text-align: center;
+  margin-top: 45px;
+}
+
+.learn-more {
+  font-family: "Cormorant SC";
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(61, 61, 61);
+  text-align: center;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(240, 233, 224);
+  height: 65px;
+}
+
+.arrow {
+  transform: translateY(5px);
+}
+
+.cloud {
+  background-color: white;
+  color: white;
+  height: 200px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 30px;
+  position: absolute;
+  right: 200px;
+  z-index: 5;
+  overflow-x: hidden;
+}
+
+.cloud2 {
+  background-color: white;
+  color: white;
+  height: 300px;
+  width: 400px;
+  border-radius: 100%;
+  margin-top: -30px;
+  position: absolute;
+  right: -50px;
+  z-index: 5;
+  overflow-x: hidden;
+}
+
+.cloud3 {
+  background-color: white;
+  color: white;
+  height: 200px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 30px;
+  position: absolute;
+  left: 200px;
+  z-index: 5;
+  overflow-x: hidden;
+}
+
+.cloud4 {
+  background-color: white;
+  color: white;
+  height: 300px;
+  width: 400px;
+  border-radius: 100%;
+  margin-top: -30px;
+  position: absolute;
+  left: -50px;
+  z-index: 5;
+}
+
+.cloud5 {
+  background-color: white;
+  color: white;
+  height: 200px;
+  width: 45%;
+  border-radius: 100%;
+  margin-top: 60px;
+  position: absolute;
+  left: 27.5%;
+  z-index: 5;
+}
+
+@media screen and (max-width: 960px) {
+  img {
+    width: 100vw;
+
+    overflow-x: hidden;
+  }
+}

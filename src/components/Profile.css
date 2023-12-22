@@ -1,0 +1,11 @@
+.profile {
+  display: block;
+  position: relative;
+  margin-right: 50px;
+  margin-top: 15px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  font-weight: 100;
+  justify-content: end;
+  justify-self: flex-end;
+}

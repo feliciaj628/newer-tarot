@@ -1,0 +1,41 @@
+p {
+  display: block;
+  font-family: Cormorant;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.link {
+  margin-top: 10px;
+  font-family: Cormorant;
+}
+
+.title {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Cormorant;
+}
+
+.thumbnail2 {
+  height: 300px;
+  width: 350px;
+  border-radius: 5px;
+  z-index: 20;
+
+  background-image: url("/public/images/stickers.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 960px) {
+  .thumbnail2 {
+    height: 200px;
+    width: 250px;
+  }
+}

@@ -1,0 +1,49 @@
+.contact-list {
+  margin: auto;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  position: relative;
+  max-width: 30vw;
+  flex: 1;
+}
+
+.contact-left {
+  margin-left: 0px;
+}
+
+.ul-title {
+  font-size: 50px;
+  font-family: "Cormorant SC", serif;
+  color: rgb(68, 65, 60);
+
+  margin-bottom: 5px;
+
+  /* text-decoration: underline; */
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact-hr-2 {
+  margin-bottom: 15px;
+}
+
+.contact-li {
+  font-family: "Cormorant", serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  list-style-type: none;
+  color: rgb(49, 49, 63);
+  margin-left: 0px;
+}
+
+.li-title {
+  font-weight: 700;
+  font-family: "Cormorant SC";
+  color: rgb(49, 49, 63);
+}

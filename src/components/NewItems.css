@@ -1,0 +1,89 @@
+#new-items-title {
+  color: #383838;
+  font-size: 45px;
+  font-family: "Great Vibes", cursive;
+
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.new-item {
+  text-align: left !important;
+}
+.new-description {
+  display: block;
+  font-family: Cormorant;
+  font-weight: 300;
+  font-size: 17px;
+  max-width: 230px;
+  word-wrap: wrap;
+}
+
+.newitems-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 4vw;
+  flex-wrap: wrap;
+}
+
+.new-description-box {
+  background-color: white;
+  padding: 2px 8px 8px 8px;
+  box-shadow: 0 0 5px rgb(75, 75, 75, 0.7);
+  /* border: 2px solid rgb(198, 187, 198); */
+  border-top: 0px;
+  margin-top: -3px;
+  min-width: 350px;
+  height: auto;
+
+  transform: scaleY(0); /* Start with a vertical scale of 0 */
+  transform-origin: top; /* Set the transform origin to the top */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Adjust the duration as needed */
+  position: absolute;
+}
+
+.newitems-container > div {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.newitems-container > div {
+  box-shadow: 0 0 10px rgb(75, 75, 75, 0.7);
+  border-radius: 5px;
+}
+
+.newitems-container > div:hover,
+.newitems-container > div:hover .new-description-box {
+  transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.4s ease;
+  box-shadow: 0px 0px 25px rgba(44, 44, 44, 0.9);
+}
+
+.newitems-container > div:hover .new-description-box {
+  opacity: 1;
+  transform: scaleY(1); /* Scale back to 100% height */
+}
+
+.border {
+  border-left: 1px solid rgb(206, 204, 203);
+  border-right: 1px solid rgb(206, 204, 203);
+  padding: 20px;
+}
+
+.link {
+  margin-top: 10px;
+  font-family: Cormorant;
+}
+
+@media screen and (max-width: 960px) {
+  p {
+    max-width: 250px;
+  }
+
+  .border {
+    padding: 20px;
+  }
+}

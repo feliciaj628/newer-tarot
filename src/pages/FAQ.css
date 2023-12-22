@@ -1,0 +1,14 @@
+.Q {
+  margin-bottom: 6px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "Cormorant SC", serif;
+  color: rgb(49, 49, 63);
+}
+
+.A {
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 1.4;
+  color: rgb(49, 49, 63);
+}

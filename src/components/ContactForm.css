@@ -1,0 +1,79 @@
+/* styles.css (or your preferred CSS file) */
+.contact-form {
+  min-width: 500px;
+  margin: auto;
+  margin-right: 0px;
+  padding: 35px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Cormorant SC", serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 0;
+  color: rgb(49, 49, 63);
+}
+
+.contact-form-container {
+  align-items: right;
+  position: relative;
+}
+
+.contact-title {
+  font-family: "Cormorant SC", serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 38px;
+  color: rgb(68, 65, 60);
+
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+.contact-hr {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-family: "Cormorant SC", serif;
+  font-size: 20px;
+  color: rgb(49, 49, 63);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Cormorant", serif;
+  color: rgb(49, 49, 63);
+}
+
+button {
+  text-align: center;
+  background-color: #a69e97;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: "Cormorant SC", serif;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #8a847f;
+}
+
+.button-container {
+  text-align: center;
+}
