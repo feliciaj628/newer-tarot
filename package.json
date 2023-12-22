@@ -1,7 +1,8 @@
 {
-  "name": "new-tart",
+  "name": "newer-tarot",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://feliciaj629.github.io/newer-tarot",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
