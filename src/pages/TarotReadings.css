@@ -35,6 +35,10 @@ p {
   transform: translateY(-10px);
 }
 
+.white {
+  color: white !important;
+}
+
 .sameday-title {
   font-size: 45px;
   font-family: "Great Vibes", cursive;

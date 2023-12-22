@@ -38,7 +38,7 @@ h1 {
   height: auto;
   min-width: 350px;
   padding: 40px 80px;
-  box-shadow: 0 0 13px 1px rgb(34, 34, 42, 0.5);
+  /* box-shadow: 0 0 13px 1px rgb(34, 34, 42, 0.5); */
 }
 
 .box-outline {
@@ -117,7 +117,7 @@ h1 {
   z-index: 0;
   height: auto;
   min-width: 350px;
-  box-shadow: 0 0 13px 1px rgb(34, 34, 42, 0.5);
+  /* box-shadow: 0 0 13px 1px rgb(34, 34, 42, 0.5); */
 }
 
 .twinkling {
