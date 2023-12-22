@@ -1,3 +1,46 @@
+.thought {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 239, 238);
+  border-radius: 90px;
+
+  min-width: 400px;
+  max-width: 60%;
+  min-height: 400px;
+  max-height: 420px;
+
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 0 10px;
+  margin: 0px;
+  margin-top: 50px;
+  margin-right: 0px;
+}
+
+.thought:before,
+.thought:after {
+  content: "";
+  background-color: rgb(246, 241, 239);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+
+.thought:after {
+  bottom: 3.5vw;
+  left: 0vw;
+  width: 3vw;
+  height: 3vw;
+  background-color: #fff;
+  box-shadow: -1.5vw 4vw 0 -0.2vw rgb(246, 241, 239),
+    0.1vw 5.9vw 0 -0.6vw rgb(246, 241, 239), 2vw 6.5vw 0 -1vw rgb(246, 241, 239);
+  transform: scaleX(-1); /* Counteract the flip effect */
+}
+
 .review-title {
   margin-top: 0px;
   margin-bottom: 15px;
@@ -106,53 +149,53 @@
   .section-three-sub-div-one {
     grid-template-columns: 15% 1fr 15%;
   }
-}
 
-/* test */
-.thought {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(246, 241, 239);
-  border-radius: 90px;
+  /* test */
+  .thought {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 241, 239);
+    border-radius: 90px;
 
-  min-width: 400px;
-  max-width: 50%;
-  min-height: 400px;
-  max-height: 420px;
+    min-width: 400px;
+    max-width: 60%;
+    min-height: 400px;
+    max-height: 420px;
 
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
-  padding: 0 10px;
-  margin: 0px;
-  margin-top: 200px;
-  margin-right: 0px;
-}
+    padding: 0 10px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
 
-.thought:before,
-.thought:after {
-  content: "";
-  background-color: rgb(246, 241, 239);
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  z-index: -1;
-}
+  .thought:before,
+  .thought:after {
+    content: "";
+    background-color: rgb(246, 241, 239);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+  }
 
-.thought:after {
-  bottom: 3.5vw;
-  left: 0vw;
-  width: 3vw;
-  height: 3vw;
-  background-color: #fff;
-  box-shadow: -1.5vw 4vw 0 -0.2vw rgb(246, 241, 239),
-    0.1vw 5.9vw 0 -0.6vw rgb(246, 241, 239), 2vw 6.5vw 0 -1vw rgb(246, 241, 239);
-  transform: scaleX(-1); /* Counteract the flip effect */
-}
+  .thought:after {
+    bottom: 3.5vw;
+    left: 0vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: #fff;
+    box-shadow: -1.5vw 4vw 0 -0.2vw rgb(246, 241, 239),
+      0.1vw 5.9vw 0 -0.6vw rgb(246, 241, 239),
+      2vw 6.5vw 0 -1vw rgb(246, 241, 239);
+    transform: scaleX(-1); /* Counteract the flip effect */
+  }
 
-/* .thought:after {
+  /* .thought:after {
   bottom: 0px;
   right: 29px;
   width: 30px;
@@ -162,3 +205,4 @@
     16px 46px 0 -10px rgb(246, 241, 239);
   transform: scaleX(-1);
 } */
+}

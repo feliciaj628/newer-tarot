@@ -17,11 +17,6 @@ function Banner() {
             <span className="arrow">⇩</span> learn more
             <span className="arrow"> ⇩</span>
           </button>
-          <div className="cloud"></div>
-          <div className="cloud2"></div>
-          <div className="cloud3"></div>
-          <div className="cloud4"></div>
-          <div className="cloud5"></div>
         </div>
       </div>
       {/* <img src="/images/banner3.png" alt="banner" /> */}

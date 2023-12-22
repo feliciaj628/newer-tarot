@@ -1,0 +1,70 @@
+body {
+  overflow-x: hidden;
+}
+
+.cloud-container {
+  position: relative;
+  z-index: 100;
+  margin-top: -20vh;
+  width: 100vw;
+  max-width: 100vw;
+}
+
+/* inner right cloud */
+
+.cloud {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 30px;
+  z-index: 7;
+  right: 200px;
+  position: absolute;
+}
+
+/* outer right cloud */
+
+.cloud2 {
+  background-color: white;
+  height: 300px;
+  width: 400px;
+  border-radius: 100%;
+  margin-top: -30px;
+  right: -50px;
+  z-index: 6;
+  position: absolute;
+}
+
+/* inner left cloud */
+
+.cloud3 {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 30px;
+  position: absolute;
+  left: 200px;
+}
+/* outer left cloud */
+.cloud4 {
+  background-color: white;
+  height: 300px;
+  width: 400px;
+  border-radius: 100%;
+  margin-top: -30px;
+  position: absolute;
+  left: -50px;
+}
+
+/* center cloud */
+.cloud5 {
+  background-color: white;
+  height: 200px;
+  width: 45vw;
+  border-radius: 100%;
+  margin-top: 5vh;
+  position: absolute;
+  left: 27.5vw;
+}

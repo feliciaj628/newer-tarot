@@ -5,19 +5,31 @@
   margin-top: 90px;
 }
 
+.data-container {
+  display: flex;
+  padding: 60px 20px 20px 20px;
+}
+
 .testimonial-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .sales-container {
   height: 100%;
   width: 55%;
-  padding: 20px;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 
+.heading-container {
+  position: relative;
+  display: flex;
+  z-index: 101;
+}
 .data-heading {
   /* background-color: rgb(249, 247, 246);
   box-shadow: 0 0 10px rgb(68, 65, 63); */
@@ -30,7 +42,7 @@
 
   border-radius: 80px;
   margin-bottom: 0px;
-  margin-top: 115px;
+  margin-top: 125px;
 
   padding: 40px 70px 50px 70px;
   z-index: 1;
@@ -39,7 +51,7 @@
 .data {
   font-size: 20px;
   margin-bottom: 55px;
-  margin-top: 25px;
+  margin-top: 0px;
   font-family: "Cormorant";
   color: rgb(70, 70, 73);
   z-index: 1;
@@ -50,4 +62,13 @@
   margin-bottom: 55px;
   font-family: "Cormorant";
   color: rgb(70, 70, 73);
+}
+.card-video {
+  height: 350px;
+  width: 50%;
+  background-color: rgb(215, 215, 228);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }

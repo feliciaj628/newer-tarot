@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import ShoppingBag from "./ShoppingBag";
 import Profile from "./Profile";
+import logo from "../icon.png";
 
 import "./Navbar.css";
 
@@ -33,6 +34,12 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link to="/" className="icon-container" onClick={closeMobileMenu}>
+                <img src={logo} id="icon" />
+              </Link>
+            </li>
+
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 HOME

@@ -6,7 +6,7 @@ img {
 }
 
 .banner {
-  height: 80vh;
+  height: 92vh;
   width: 100vw;
   padding: 110px 180px;
   align-items: center;
@@ -48,69 +48,6 @@ img {
 
 .arrow {
   transform: translateY(5px);
-}
-
-.cloud {
-  background-color: white;
-  color: white;
-  height: 200px;
-  width: 300px;
-  border-radius: 50%;
-  margin-top: 30px;
-  position: absolute;
-  right: 200px;
-  z-index: 5;
-  overflow-x: hidden;
-}
-
-.cloud2 {
-  background-color: white;
-  color: white;
-  height: 300px;
-  width: 400px;
-  border-radius: 100%;
-  margin-top: -30px;
-  position: absolute;
-  right: -50px;
-  z-index: 5;
-  overflow-x: hidden;
-}
-
-.cloud3 {
-  background-color: white;
-  color: white;
-  height: 200px;
-  width: 300px;
-  border-radius: 50%;
-  margin-top: 30px;
-  position: absolute;
-  left: 200px;
-  z-index: 5;
-  overflow-x: hidden;
-}
-
-.cloud4 {
-  background-color: white;
-  color: white;
-  height: 300px;
-  width: 400px;
-  border-radius: 100%;
-  margin-top: -30px;
-  position: absolute;
-  left: -50px;
-  z-index: 5;
-}
-
-.cloud5 {
-  background-color: white;
-  color: white;
-  height: 200px;
-  width: 45%;
-  border-radius: 100%;
-  margin-top: 60px;
-  position: absolute;
-  left: 27.5%;
-  z-index: 5;
 }
 
 @media screen and (max-width: 960px) {
