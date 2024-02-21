@@ -24,7 +24,13 @@ const ContactForm = () => {
     <>
       <div className="contact-form-container">
         <form className="contact-form" onSubmit={handleSubmit}>
-          <p className="contact-title">send a message</p>
+          <p className="contact-title">
+            <span className="font-test">
+              or...
+              <br />
+            </span>
+            send a message
+          </p>
           <hr className="contact-hr"></hr>
           <label>
             <p className="label">name</p>

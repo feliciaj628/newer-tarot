@@ -18,7 +18,8 @@ function NewItems() {
               <p className="title new-item">
                 True Desires Printable Oracle Deck
               </p>
-              <p className="new-description">Printable DIY mini oracle deck</p>
+              {/* <hr className="hr-3"></hr>
+              <p className="new-description">Printable DIY mini oracle deck</p> */}
             </div>
           </div>
 
@@ -31,7 +32,8 @@ function NewItems() {
               <p className="title new-item">
                 Enchanted Meadow Printable Oracle Deck
               </p>
-              <p className="new-description">Printable DIY oracle deck</p>
+              {/* <hr className="hr-3"></hr>
+              <p className="new-description">Printable DIY oracle deck</p> */}
             </div>
           </div>
           <div>
@@ -45,7 +47,8 @@ function NewItems() {
                 <br />
                 *No Contact*
               </p>
-              <p className="new-description">Printable DIY oracle deck</p>
+              {/* <hr className="hr-3"></hr>
+              <p className="new-description">Printable DIY oracle deck</p> */}
             </div>
           </div>
         </div>

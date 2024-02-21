@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
 }
 
-.cloud-container {
+.cloud-edge-container {
   position: relative;
   z-index: 100;
   margin-top: -20vh;
@@ -67,4 +67,261 @@ body {
   margin-top: 5vh;
   position: absolute;
   left: 27.5vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .cloud-edge-container {
+    position: relative;
+    z-index: 100;
+    margin-top: -20vh;
+    width: 100vw;
+    max-width: 100vw;
+  }
+  /* outer left cloud */
+  .cloud4 {
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    border-radius: 100%;
+    margin-top: -20px;
+    position: absolute;
+    left: -120px;
+  }
+
+  /* outer right cloud */
+  .cloud2 {
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    border-radius: 100%;
+    margin-top: -20px;
+    right: -120px;
+    z-index: 6;
+    position: absolute;
+  }
+  /* inner left cloud */
+
+  .cloud3 {
+    background-color: white;
+    height: 200px;
+    width: 210px;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: absolute;
+    left: 10px;
+  }
+  /* inner rightcloud */
+
+  .cloud {
+    background-color: white;
+    height: 200px;
+    width: 210px;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: absolute;
+    right: 10px;
+  }
+  /* center cloud */
+  .cloud5 {
+    background-color: white;
+    height: 200px;
+    width: 50vw;
+    border-radius: 100%;
+    margin-top: 5vh;
+    position: absolute;
+    left: 25vw;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 949px) {
+  .cloud-edge-container {
+    position: relative;
+    z-index: 100;
+    margin-top: -25vh;
+    width: 100vw;
+    max-width: 100vw;
+  }
+  /* outer left cloud */
+  .cloud4 {
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    border-radius: 100%;
+    margin-top: 10px;
+    position: absolute;
+    left: -100px;
+  }
+
+  /* outer right cloud */
+  .cloud2 {
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    border-radius: 100%;
+    margin-top: 0px;
+    right: -100px;
+    z-index: 6;
+    position: absolute;
+  }
+
+  /* inner left cloud */
+
+  .cloud3 {
+    background-color: white;
+    height: 200px;
+    width: 280px;
+    border-radius: 50%;
+    margin-top: 80px;
+    position: absolute;
+    left: 30px;
+  }
+  /* inner rightcloud */
+
+  .cloud {
+    background-color: white;
+    height: 200px;
+    width: 280px;
+    border-radius: 50%;
+    margin-top: 80px;
+    position: absolute;
+    right: 30px;
+  }
+  /* center cloud */
+  .cloud5 {
+    background-color: white;
+    height: 200px;
+    width: 45vw;
+    border-radius: 100%;
+    margin-top: 13vh;
+    position: absolute;
+    left: 27.5vw;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1199px) {
+  /* inner right cloud */
+
+  .cloud {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+    z-index: 7;
+    right: 150px;
+    position: absolute;
+  }
+
+  /* outer right cloud */
+
+  .cloud2 {
+    background-color: white;
+    height: 280px;
+    width: 350px;
+    border-radius: 100%;
+    margin-top: -30px;
+    right: -60px;
+    z-index: 6;
+    position: absolute;
+  }
+
+  /* inner left cloud */
+
+  .cloud3 {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+    position: absolute;
+    left: 150px;
+  }
+  /* outer left cloud */
+  .cloud4 {
+    background-color: white;
+    height: 280px;
+    width: 350px;
+    border-radius: 100%;
+    margin-top: -30px;
+    position: absolute;
+    left: -60px;
+  }
+
+  /* center cloud */
+  .cloud5 {
+    background-color: white;
+    height: 200px;
+    width: 45vw;
+    border-radius: 100%;
+    margin-top: 6vh;
+    position: absolute;
+    left: 27.5vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .cloud-edge-container {
+    position: relative;
+    z-index: 100;
+    margin-top: -20vh;
+    width: 100vw;
+    max-width: 100vw;
+  }
+
+  /* inner right cloud */
+
+  .cloud {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+    z-index: 7;
+    right: 200px;
+    position: absolute;
+  }
+
+  /* outer right cloud */
+
+  .cloud2 {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border-radius: 100%;
+    margin-top: -30px;
+    right: -50px;
+    z-index: 6;
+    position: absolute;
+  }
+
+  /* inner left cloud */
+
+  .cloud3 {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+    position: absolute;
+    left: 200px;
+  }
+  /* outer left cloud */
+  .cloud4 {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border-radius: 100%;
+    margin-top: -30px;
+    position: absolute;
+    left: -50px;
+  }
+
+  /* center cloud */
+  .cloud5 {
+    background-color: white;
+    height: 200px;
+    width: 45vw;
+    border-radius: 100%;
+    margin-top: 5vh;
+    position: absolute;
+    left: 27.5vw;
+  }
 }

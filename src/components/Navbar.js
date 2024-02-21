@@ -34,9 +34,10 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
+            <li className="nav-item" id="nav-item-1">
               <Link to="/" className="icon-container" onClick={closeMobileMenu}>
                 <img src={logo} id="icon" />
+                Crystal's Magick Corner
               </Link>
             </li>
 

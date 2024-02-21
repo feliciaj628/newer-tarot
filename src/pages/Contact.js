@@ -7,33 +7,45 @@ import ContactForm from "../components/ContactForm";
 function Contact() {
   return (
     <>
-      <div className="container">
-        <h1 className="page-title">Contact</h1>
-        <hr className="title-hr"></hr>
-        <div className="contact-container">
-          <ul className="contact-list">
-            <p className="ul-title">where to find me</p>
-            <li className="contact-li">
-              <span className="li-title">
-                email:
-                <br />
-              </span>
-              crystalsmagickcorner@gmail.com
-            </li>
-            <li className="contact-li">
-              <span className="li-title">youtube: </span>
-              <a href="https://www.youtube.com/@crystalsmagickcorner">
-                https://www.youtube.com/@crystalsmagickcorner
-              </a>
-            </li>
-            <li className="contact-li">
-              <span className="li-title">etsy: </span>
-              <a href="https://www.etsy.com/shop/CrystaIsMagickCorner?ref=seller-platform-mcnav">
-                https://www.etsy.com/shop/CrystaIsMagickCorner?ref=seller-platform-mcnav
-              </a>
-            </li>
-          </ul>
-          <ContactForm />
+      <div className="stars">
+        <div className="twinkling">
+          <div className="items-center" id="contact-page">
+            {/* <h1 className="page-title">Contact</h1>
+        <hr className="title-hr"></hr> */}
+
+            <div className="contact-container">
+              <div className="cloud-container">
+                <img
+                  id="cloud"
+                  src="./images/cloud.png"
+                  class="shadowed-image"
+                  alt="cloud"
+                />
+
+                <div className="contact-list">
+                  <p className="ul-title">Where to find me:</p>
+                  <div className="contact-container2">
+                    <a
+                      className="contact-link li-title"
+                      id="email-icon"
+                      href="crystalsmagickcorner@gmail.com"
+                    ></a>
+                    <a
+                      className="contact-link li-title"
+                      id="youtube-icon"
+                      href="https://www.youtube.com/@crystalsmagickcorner"
+                    ></a>
+                    <a
+                      className="contact-link li-title"
+                      href="https://www.etsy.com/shop/CrystaIsMagickCorner?ref=seller-platform-mcnav"
+                      id="etsy-icon"
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <ContactForm />
+            </div>
+          </div>
         </div>
       </div>
       <Footer />

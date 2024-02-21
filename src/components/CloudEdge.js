@@ -4,7 +4,7 @@ import "./CloudEdge.css";
 function CloudEdge() {
   return (
     <>
-      <div className="cloud-container">
+      <div className="cloud-edge-container">
         <div className="cloud"></div>
         <div className="cloud2"></div>
         <div className="cloud3"></div>

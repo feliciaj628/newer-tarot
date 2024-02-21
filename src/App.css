@@ -7,6 +7,16 @@ h1 {
   font-weight: 300;
 }
 
+h2 {
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 40px;
+}
+
+.h2-2 {
+  font-size: 60px;
+}
+
 .title-hr {
   margin-bottom: 40px;
 }
@@ -28,17 +38,43 @@ h1 {
   display: block;
 }
 
+.description-box {
+  background-color: white;
+  padding: 2px 8px 8px 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+  /* border: 2px solid rgb(198, 187, 198); */
+  border-top: 0px;
+  margin-top: -3px;
+  max-width: 235px;
+  height: auto;
+
+  transform: scaleY(0); /* Start with a vertical scale of 0 */
+  transform-origin: top; /* Set the transform origin to the top */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Adjust the duration as needed */
+  position: absolute;
+}
+
 .container {
   padding: 50px 140px 120px 140px;
   min-height: 80.5vh;
 }
 
+.container2 {
+  padding: 100px 200px 120px 200px;
+  min-height: 80.5vh;
+  align-items: center;
+}
+
 .box {
   background-color: rgb(242, 236, 235);
+  opacity: 0;
   height: auto;
   min-width: 350px;
   padding: 40px 80px;
   /* box-shadow: 0 0 13px 1px rgb(34, 34, 42, 0.5); */
+}
+.off-white {
+  background-color: rgb(242, 239, 238);
 }
 
 .box-outline {
@@ -73,7 +109,7 @@ h1 {
   text-decoration: none;
 }
 .page-title-2 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   align-items: left;
   text-align: center;
 
@@ -128,4 +164,63 @@ h1 {
   background: url("../public/images/twinkling2.png") repeat top center;
 
   animation: move-twink-back 200s linear infinite;
+}
+
+.cormorant-sc {
+  font-family: "Cormorant SC", serif;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Font size adjustment for small screens */
+  .page-title {
+    font-size: 60px;
+  }
+  .container {
+    padding: 10px 80px 120px 80px;
+    min-height: 80.5vh;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+}
+
+/* Media query for medium devices (tablets, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 899px) {
+  /* Tablet-specific styles */
+  .page-title {
+    font-size: 60px;
+  }
+  .container {
+    padding: 10px 100px 120px 100px;
+    min-height: 80.5vh;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+  }
+}
+
+/* Media query for large devices (desktops, 992px and up) */
+@media only screen and (min-width: 900px) and (max-width: 1399px) {
+  /* Desktop-specific styles */
+  .page-title {
+    font-size: 85px;
+  }
+
+  .container {
+    padding: 10px 100px 120px 100px;
+    min-height: 80.5vh;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    padding: 10px 140px 120px 140px;
+    min-height: 80.5vh;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+  }
 }

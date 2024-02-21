@@ -12,9 +12,10 @@
   position: relative;
   align-items: center;
   justify-content: center;
+
   text-align: center;
 
-  padding: 0 10px;
+  padding: 10px 10px;
   margin: 0px;
   margin-top: 50px;
   margin-right: 0px;
@@ -42,9 +43,7 @@
 }
 
 .review-title {
-  margin-top: 0px;
-  margin-bottom: 15px;
-
+  margin: 10px 35px;
   color: #383838;
   font-size: 35px;
   font-family: "Cormorant SC", serif;
@@ -145,7 +144,7 @@
   transition: 1s;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .section-three-sub-div-one {
     grid-template-columns: 15% 1fr 15%;
   }
@@ -157,17 +156,17 @@
     background-color: rgb(246, 241, 239);
     border-radius: 90px;
 
-    min-width: 400px;
-    max-width: 60%;
+    min-width: 300px;
+    max-width: 75%;
     min-height: 400px;
-    max-height: 420px;
+    max-height: 490px;
 
     position: relative;
     align-items: center;
     justify-content: center;
     text-align: center;
 
-    padding: 0 10px;
+    padding: 0px 10px;
     margin: 0px;
     margin-top: 20px;
     margin-right: 0px;
@@ -195,7 +194,46 @@
     transform: scaleX(-1); /* Counteract the flip effect */
   }
 
-  /* .thought:after {
+  .review-title {
+    font-size: 28px;
+  }
+
+  .para {
+    font-family: "Cormorant", serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-weight: 400;
+    color: #383838;
+  }
+
+  .subText {
+    font-size: 13px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 899px) {
+  /* Tablet-specific styles */
+  .thought {
+    min-height: 500px;
+    max-height: 560px;
+    max-width: 75%;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1399px) {
+  /* Desktop-specific styles */
+  .thought {
+    max-width: 60%;
+    max-height: 520px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+}
+
+/* .thought:after {
   bottom: 0px;
   right: 29px;
   width: 30px;
@@ -205,4 +243,3 @@
     16px 46px 0 -10px rgb(246, 241, 239);
   transform: scaleX(-1);
 } */
-}

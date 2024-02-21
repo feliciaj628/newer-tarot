@@ -1,11 +1,50 @@
-.contact-list {
-  margin: auto;
-  margin-left: 0px;
-  padding-left: 0px;
+#contact-page {
+  padding: 40px 100px 120px 100px;
+}
+#cloud {
+  filter: drop-shadow(0 0 12px #08011f);
+  height: 380px;
+
   margin-top: 0px;
-  position: relative;
-  max-width: 30vw;
+
+  min-width: 600px;
+
+  position: absolute;
+  display: flex;
+  z-index: -10;
+}
+
+#etsy-icon {
+  background-image: url("../../public/images/etsy.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#youtube-icon {
+  background-image: url("../../public/images/youtube.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#email-icon {
+  background-image: url("../../public/images/email.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-list {
+  position: absolute;
+  /* Move the container down by 50% of the parent's height */
+  /* Move the container right by 50% of the parent's width */
+  margin-top: 90px;
+  margin-left: 180px;
+
+  padding-left: 0px;
+  flex-direction: column;
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-left {
@@ -13,19 +52,65 @@
 }
 
 .ul-title {
-  font-size: 50px;
-  font-family: "Cormorant SC", serif;
+  font-size: 55px;
+  font-family: "Great Vibes", cursive;
   color: rgb(68, 65, 60);
+  display: flex;
+  z-index: 20;
+  white-space: nowrap;
 
+  margin-left: 0px;
+  margin-top: 0px;
   margin-bottom: 5px;
 
-  /* text-decoration: underline; */
+  /* text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-underline-offset: 7px;
+  text-underline-offset: 7px; */
 }
 
 .contact-container {
   display: flex;
+  justify-content: center;
+
+  padding: 40px 10px;
+  z-index: 20;
+  flex-wrap: wrap;
+  gap: 430px 70px;
+}
+
+.contact-container2 {
+  display: grid;
+  justify-content: center;
+  gap: 40px;
+  height: 5rem;
+  grid-template-columns: 5rem 5rem 5rem;
+}
+
+.cloud-container {
+  position: relative;
+  /* display: inline-block; */
+}
+
+.contact-link {
+  /* outline-width: 1px;
+  outline-color: rgb(34, 34, 34);
+  outline-style: solid; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 1;
+  box-shadow: 0px 0px 5px rgb(42, 41, 41);
+}
+
+.contact-link:hover {
+  /* outline-width: 1px; */
+  /* outline-color: rgb(34, 34, 34);
+  outline-style: solid; */
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgb(43, 43, 43);
 }
 
 .contact-hr-2 {
@@ -34,7 +119,7 @@
 
 .contact-li {
   font-family: "Cormorant", serif;
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 20px;
   font-weight: 300;
   list-style-type: none;
@@ -46,4 +131,109 @@
   font-weight: 700;
   font-family: "Cormorant SC";
   color: rgb(49, 49, 63);
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Insert mobile-specific styles here */
+  .cloud-container {
+    width: auto;
+    justify-content: center;
+  }
+  #cloud {
+    margin-left: -35vw;
+  }
+  .contact-list {
+    margin-top: 100px;
+    margin-left: 0px;
+    max-width: 30vw;
+  }
+}
+
+/* Media query for medium devices (tablets, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 899px) {
+  /* Insert tablet-specific styles here */
+  #contact-page {
+    padding: 10px 200px 120px 200px;
+    min-height: 80.5vh;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  #cloud {
+    max-width: 550px;
+    margin-top: 0px;
+    margin-left: -280px;
+  }
+
+  .contact-container {
+    width: auto;
+    justify-content: center;
+  }
+  .cloud-container {
+    margin-top: 0px;
+  }
+
+  .contact-list {
+    margin-top: 100px;
+    margin-left: -90px;
+    max-width: 30vw;
+  }
+}
+
+/* Media query for large devices (desktops, 992px and up) */
+@media only screen and (min-width: 900px) and (max-width: 1399px) {
+  /* Insert desktop-specific styles here */
+  #contact-page {
+    padding: 10px 100px 120px 100px;
+  }
+  #cloud {
+    margin-top: 0px;
+    margin-left: -80px;
+    width: 550px;
+  }
+  .contact-container {
+    width: auto;
+    justify-content: center;
+  }
+  .cloud-container {
+    margin-top: 0px;
+    width: 52%;
+  }
+
+  .contact-list {
+    margin-top: 90px;
+    margin-left: 60px;
+    max-width: 30vw;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* Insert desktop-specific styles here */
+  #contact-page {
+    padding: 40px 100px 120px 100px;
+  }
+
+  #cloud {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 550px;
+  }
+  .contact-container {
+    width: auto;
+    justify-content: center;
+  }
+  .cloud-container {
+    margin-top: 0px;
+    width: 52%;
+  }
+
+  .contact-list {
+    margin-top: 90px;
+    margin-left: 140px;
+    max-width: 30vw;
+  }
 }

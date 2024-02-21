@@ -1,14 +1,29 @@
 .Q {
-  margin-bottom: 6px;
+  margin-bottom: 7px;
   font-size: 35px;
   font-weight: 500;
   font-family: "Cormorant SC", serif;
   color: rgb(49, 49, 63);
+  line-height: 1.1;
 }
 
 .A {
   margin-bottom: 25px;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.4;
   color: rgb(49, 49, 63);
+}
+
+@media only screen and (max-width: 600px) {
+  /* Font size adjustment for small screens */
+}
+
+/* Media query for medium devices (tablets, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* Tablet-specific styles */
+}
+
+/* Media query for large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* Desktop-specific styles */
 }

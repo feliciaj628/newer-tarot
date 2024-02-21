@@ -13,14 +13,14 @@ function Home() {
     <>
       <Banner />
       <CloudEdge />
-      <div className="container">
+      <div className="container items-center">
         <div className="heading-container">
           <h1 className="data-heading">
             join <strong>over a thousand </strong>others who have unveiled their
             person's <u>true feelings and intentions</u>
           </h1>
         </div>
-        <div className="data-container">
+        <div className="data-container grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5">
           <div className="sales-container">
             {/* <div className="data-heading">
               Get answers to your burning questions from an experienced tarot
@@ -31,7 +31,7 @@ function Home() {
             <ul className="data">
               <li className="data-li">
                 Over
-                <strong> 1,300</strong> readings given
+                <strong> 1,400</strong> readings given
               </li>
               <li className="data-li">
                 <strong>4.9</strong> star average rating
@@ -41,7 +41,10 @@ function Home() {
               </li>
             </ul>
           </div>
-          <div className="card-video">*insert video here*</div>
+          <img
+            className="card-video mx-auto rounded-md"
+            src="/images/home-photo3.jpg"
+          ></img>
         </div>
         <div className="testimonial-container">
           <Testimonial testimonialData={data} />

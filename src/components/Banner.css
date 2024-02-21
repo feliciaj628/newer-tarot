@@ -15,12 +15,13 @@ img {
 
 .banner-heading {
   font-family: "Cormorant SC";
-  font-size: 75px;
+  font-size: 5vw;
   font-weight: 600;
   color: white;
   text-align: left;
   word-wrap: wrap;
-  max-width: 75vw;
+  max-width: 72vw;
+  line-height: 1.4;
 }
 
 .banner-heading-2 {
@@ -29,7 +30,6 @@ img {
   font-weight: 400;
   color: rgb(232, 232, 232);
   text-align: center;
-  margin-top: 45px;
 }
 
 .learn-more {
@@ -42,18 +42,95 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(240, 233, 224);
+  background-color: rgb(240, 233, 224) !important;
   height: 65px;
 }
 
+.learn-more:hover {
+  background-color: rgb(193, 186, 178) !important;
+}
 .arrow {
   transform: translateY(5px);
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 600px) {
   img {
     width: 100vw;
 
     overflow-x: hidden;
+  }
+  .banner {
+    padding: 30px 60px 50px 60px;
+    height: 68vh;
+  }
+  .banner-heading {
+    font-size: 40px;
+    max-width: 90vw;
+  }
+  .banner-heading-2 {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .learn-more {
+    height: 30px;
+    font-size: 12px;
+    margin-top: 25px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 949px) {
+  /* Font size adjustment for small screens */
+  .banner {
+    padding: 50px 80px 50px 80px;
+    height: 68vh;
+  }
+  .banner-heading {
+    max-width: 90vw;
+    font-size: 6vw;
+  }
+  .banner-heading-2 {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+
+  .learn-more {
+    height: 40px;
+    font-size: 15px;
+    margin-top: 25px;
+  }
+}
+
+/* Media query for medium devices (tablets, 600px and up) */
+@media only screen and (min-width: 950px) and (max-width: 1199px) {
+  /* Tablet-specific styles */
+  .banner {
+    padding: 70px 140px;
+    height: 83vh;
+  }
+  .banner-heading {
+    max-width: 80vw;
+    font-size: 5.5vw;
+    /* font-size: 62px; */
+  }
+  .banner-heading-2 {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .learn-more {
+    height: 55px;
+    font-size: 18px;
+    margin-top: 25px;
+  }
+}
+
+/* Media query for large devices (desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+  /* Desktop-specific styles */
+  .banner {
+    padding: 70px 180px;
+    height: 90vh;
+  }
+  .banner-heading {
+    max-width: 80vw;
+    /* font-size: 78px; */
   }
 }

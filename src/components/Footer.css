@@ -1,5 +1,5 @@
 .footer-background {
-  background-color: rgb(67, 67, 75);
+  background-color: rgb(242, 239, 238);
   height: 65px;
 
   display: flex;
@@ -10,6 +10,7 @@
 
 .copy {
   justify-self: center;
-  color: white;
+  color: rgb(72, 67, 65);
+  font-weight: 500;
   font-size: 20px;
 }

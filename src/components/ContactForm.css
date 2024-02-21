@@ -1,21 +1,28 @@
-/* styles.css (or your preferred CSS file) */
 .contact-form {
-  min-width: 500px;
-  margin: auto;
+  width: 32vw;
+  min-width: 420px;
   margin-right: 0px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: 0;
+  background-color: white;
+
   padding: 35px;
+  padding-top: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-family: "Cormorant SC", serif;
   font-size: 20px;
-  margin-left: auto;
-  margin-right: 0;
+
   color: rgb(49, 49, 63);
 }
 
+.font-test {
+  font-size: 25px;
+}
 .contact-form-container {
-  align-items: right;
+  align-items: center;
   position: relative;
 }
 
@@ -23,10 +30,11 @@
   font-family: "Cormorant SC", serif;
   font-weight: 400;
   text-align: center;
-  font-size: 38px;
+  font-size: 39px;
   color: rgb(68, 65, 60);
+  line-height: 1.1 !important;
 
-  margin-bottom: 15px;
+  margin-bottom: 15px !important;
   margin-top: -10px;
 }
 
@@ -36,7 +44,7 @@
 
 label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .label {
@@ -48,7 +56,7 @@ label {
 input,
 textarea {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 15px;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -57,9 +65,16 @@ textarea {
   color: rgb(49, 49, 63);
 }
 
+textarea {
+  padding: 20px;
+}
+
 button {
+  display: flex;
+  margin: auto;
+  z-index: -1000;
   text-align: center;
-  background-color: #a69e97;
+  background-color: #a19a95 !important;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -71,9 +86,51 @@ button {
 }
 
 button:hover {
-  background-color: #8a847f;
+  background-color: #8a847f !important;
 }
 
 .button-container {
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Insert mobile-specific styles here */
+  .contact-form {
+    width: 80vw;
+  }
+}
+
+/* Media query for medium devices (tablets, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .contact-form {
+    width: 50vw;
+    /* align-items: center; */
+  }
+  .contact-title {
+    margin: auto;
+  }
+  /* Insert tablet-specific styles here */
+}
+@media only screen and (min-width: 901px) and (max-width: 1400px) {
+  .contact-form {
+    width: 45vw;
+    /* align-items: center; */
+  }
+  .contact-title {
+    margin: auto;
+  }
+  /* Insert tablet-specific styles here */
+}
+
+/* Media query for large devices (desktops, 992px and up) */
+@media only screen and (min-width: 1440px) {
+  /* Insert desktop-specific styles here */
+  .contact-form {
+    width: 33vw;
+    height: 550px;
+  }
+
+  .contact-title {
+    margin: auto;
+  }
 }

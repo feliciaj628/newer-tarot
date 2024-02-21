@@ -6,7 +6,7 @@ function Banner() {
     <>
       <div className="stars">
         <div className="twinkling banner">
-          <p className="banner-heading">
+          <p className="banner-heading mb-2">
             Get answers to your burning questions from an experienced tarot
             reader.
           </p>
