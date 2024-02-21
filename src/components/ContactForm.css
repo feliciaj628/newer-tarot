@@ -55,6 +55,7 @@ label {
 
 input,
 textarea {
+  font-size: 18px;
   width: 100%;
   padding: 5px;
   margin-bottom: 15px;
@@ -66,7 +67,7 @@ textarea {
 }
 
 textarea {
-  padding: 20px;
+  padding: 10px;
 }
 
 button {
