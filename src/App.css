@@ -97,8 +97,8 @@ h2 {
 }
 
 .page-title {
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-top: 15çpx;
   align-items: left;
   text-align: center;
 
@@ -217,7 +217,7 @@ h2 {
 
 @media only screen and (min-width: 1400px) {
   .container {
-    padding: 10px 140px 120px 140px;
+    padding: 10px 160px 120px 160px;
     min-height: 80.5vh;
     align-items: center;
     justify-content: center;

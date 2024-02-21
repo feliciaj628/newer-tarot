@@ -40,59 +40,55 @@ function Navbar() {
                 Crystal's Magick Corner
               </Link>
             </li>
-
-            <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                HOME
-              </Link>
-            </li>
-            {/* <li className="nav-item">
+            <div className="flex justify-end">
+              <li className="nav-item">
+                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                  HOME
+                </Link>
+              </li>
+              {/* <li className="nav-item">
               <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
                 BLOG
               </Link>
             </li> */}
-            <li className="nav-item">
-              <Link
-                to="/tarotreadings"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                TAROT READINGS
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/oracledecks"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                ORACLE DECKS
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/contact"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                CONTACT
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/FAQ" className="nav-links" onClick={closeMobileMenu}>
-                FAQ
-              </Link>
-            </li>
+              <li className="nav-item">
+                <Link
+                  to="/tarotreadings"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  TAROT READINGS
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/oracledecks"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  ORACLE DECKS
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/contact"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  CONTACT
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/FAQ"
+                  className="nav-links-last"
+                  onClick={closeMobileMenu}
+                >
+                  FAQ
+                </Link>
+              </li>
+            </div>
           </ul>
-          {/* <Profile />
-          <ShoppingBag />
-          <div className="menu-icon" onClick={handleClick}>
-            <FontAwesomeIcon icon={click ? faTimes : faBars} />
-          </div> */}
-
-          {/* <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Crystal's Magick Corner
-          </Link> */}
         </div>
       </nav>
     </>

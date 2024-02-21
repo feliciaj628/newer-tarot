@@ -9,12 +9,11 @@ body {
   background: white;
   height: 100px;
   display: flex;
-  justify-content: center;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0px 25px 28px -20px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 20px 18px -20px rgba(0, 0, 0, 0.42);
 }
 
 .navbar-container {
@@ -31,7 +30,6 @@ body {
 
   display: flex;
   align-items: center;
-  justify-content: center;
 
   padding: 1rem 1rem 0rem 0rem;
   height: 100%;
@@ -49,15 +47,14 @@ body {
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(7, auto);
-  grid-gap: 5px;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 15px;
   list-style: none;
-  text-align: center;
+  margin-right: 160px;
+  margin-left: 160px;
   width: 100vw;
-  justify-content: start;
-  margin-right: 0rem;
+  text-align: center;
   font-size: 1.1rem;
-  margin-left: 100px;
 }
 
 .nav-item {
@@ -69,15 +66,27 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 1rem;
-  padding-top: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-right: 0.8rem;
+  padding-bottom: 0rem;
+  height: 100%;
+  font-family: "Cormorant", serif;
+  font-weight: 300;
+}
+.nav-links-last {
+  color: rgb(53, 49, 49);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 1rem 1rem 1rem 1rem;
   padding-bottom: 0rem;
   height: 100%;
   font-family: "Cormorant", serif;
   font-weight: 300;
 }
 
-.nav-links:hover {
+.nav-links:hover,
+.nav-links-last:hover {
   border-bottom: 4px solid #353535;
   transition: all 0.2s ease-out;
 }

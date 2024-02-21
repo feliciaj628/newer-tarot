@@ -11,14 +11,15 @@
 }
 
 .new-item {
-  font-size: 18px !important;
+  font-size: 16px !important;
+  line-height: 1.4;
 }
 .new-description {
   display: block;
   font-family: Cormorant;
   font-weight: 300;
-  font-size: 17px;
-  max-width: 350px;
+
+  max-width: 330px;
   word-wrap: wrap;
   text-align: left !important;
   margin: 5px 5px 5px 5px !important;
@@ -36,12 +37,12 @@
 
 .new-description-box {
   background-color: white;
-  padding: 6px 8px 8px 8px;
+  padding: 4px 8px 5px 8px;
   box-shadow: 0 0 5px rgb(75, 75, 75, 0.7);
   /* border: 2px solid rgb(198, 187, 198); */
   border-top: 0px;
   margin-top: -3px;
-  min-width: 350px;
+  min-width: 330px;
   height: auto;
 
   transform: scaleY(0); /* Start with a vertical scale of 0 */
