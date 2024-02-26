@@ -42,7 +42,7 @@ function Home() {
             </ul>
           </div>
           <img
-            className="card-video mx-auto rounded-md"
+            className="card-image mx-auto rounded-md"
             src="/images/home-photo3.jpg"
           ></img>
         </div>
