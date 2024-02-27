@@ -9,6 +9,7 @@ import TarotReadings from "./pages/TarotReadings";
 import OracleDecks from "./pages/OracleDecks";
 import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 function App() {
   return (

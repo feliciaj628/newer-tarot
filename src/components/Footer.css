@@ -14,3 +14,10 @@
   font-weight: 500;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  /* Font size adjustment for small screens */
+  .copy {
+    font-size: 15px;
+  }
+}

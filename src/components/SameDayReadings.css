@@ -84,7 +84,7 @@ p {
   justify-self: flex-start;
   align-items: left;
   justify-content: center;
-  gap: 1vw;
+  gap: 15px 1vw;
   z-index: 10;
 
   display: flex;
