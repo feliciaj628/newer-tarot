@@ -256,10 +256,16 @@ ul::marker {
     justify-content: end;
     justify-self: flex-end;
   }
+  .icon-container {
+    margin-left: 5px;
+  }
+
   .icon-cont-cont {
     margin-left: 0px;
     left: 0;
     transform: translate(0%, -8%);
+    display: block;
+    position: absolute;
   }
   /* .icon-cont-cont {
     margin-left: 0px;
