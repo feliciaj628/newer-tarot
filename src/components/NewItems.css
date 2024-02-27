@@ -81,8 +81,20 @@
   font-family: Cormorant;
 }
 
+@media only screen and (max-width: 600px) {
+  .new-description-box {
+    min-width: 250px;
+    max-width: 250px;
+    transform: scaleY(1);
+  }
+}
+
 @media screen and (max-width: 960px) {
   .border {
     padding: 20px;
+    transform: scaleY(1); /* Start with a vertical scale of 0 */
+    transform-origin: top; /* Set the transform origin to the top */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Adjust the duration as needed */
+    position: absolute;
   }
 }
