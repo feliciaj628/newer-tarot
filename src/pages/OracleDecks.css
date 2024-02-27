@@ -41,7 +41,7 @@ p {
   justify-self: flex-start;
   align-items: left;
   justify-content: center;
-  gap: 2vw;
+  gap: 15px 2vw;
 
   display: flex;
   flex-direction: row;
@@ -102,4 +102,24 @@ p {
   font-weight: 700;
   font-size: 35px;
   margin-bottom: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Font size adjustment for small screens */
+
+  .explanation-container {
+    max-width: 80vw;
+  }
+  .explanation {
+    margin-top: 35px;
+    line-height: 1.2;
+  }
+  .question {
+    margin-bottom: 8px;
+    font-size: 32px;
+    line-height: 1;
+  }
+  .explanation-font {
+    font-size: 22px;
+  }
 }

@@ -79,17 +79,27 @@
 @media only screen and (max-width: 600px) {
   /* Font size adjustment for small screens */
   .data-heading {
-    padding: 30px 20px 40px 20px;
-    margin-top: 100px;
-    font-size: 28px;
+    padding: 30px 30px 40px 30px;
+    margin-top: 70px;
+    font-size: 25px;
+    line-height: 1.35;
+  }
+  .data {
+    margin-bottom: 0px;
+  }
+
+  .data-li {
+    font-size: 25px;
+    margin-bottom: 35px;
   }
   .data-container {
-    padding: 60px 10px 20px 10px;
+    padding: 60px 0px 20px 0px;
   }
 
   .card-image {
     max-width: auto;
-    height: 150px;
+    height: 180px;
+    margin-bottom: 20px;
   }
 }
 
