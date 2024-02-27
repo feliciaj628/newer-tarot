@@ -15,16 +15,18 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" exact element={<Home />} />
+        <div className="width">
+          <Navbar />
+          <Routes>
+            <Route path="/" exact element={<Home />} />
 
-          <Route path="/blog" exact element={<Blog />} />
-          <Route path="/tarotreadings" exact element={<TarotReadings />} />
-          <Route path="/oracledecks" exact element={<OracleDecks />} />
-          <Route path="/contact" exact element={<Contact />} />
-          <Route path="/FAQ" exact element={<FAQ />} />
-        </Routes>
+            <Route path="/blog" exact element={<Blog />} />
+            <Route path="/tarotreadings" exact element={<TarotReadings />} />
+            <Route path="/oracledecks" exact element={<OracleDecks />} />
+            <Route path="/contact" exact element={<Contact />} />
+            <Route path="/FAQ" exact element={<FAQ />} />
+          </Routes>
+        </div>
       </Router>
     </>
   );
