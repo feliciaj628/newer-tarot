@@ -45,11 +45,13 @@ img {
   text-align: center;
   background-color: rgb(240, 233, 224) !important;
   height: 65px;
+  cursor: default;
+}
+.learn-more:hover {
+  background-color: rgb(240, 233, 224) !important;
+  cursor: default;
 }
 
-.learn-more:hover {
-  background-color: rgb(193, 186, 178) !important;
-}
 .arrow {
   transform: translateY(5px);
 }

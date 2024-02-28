@@ -4,6 +4,7 @@ import "../components/Thumbnail.css";
 import "./OracleDecks.css";
 import "../App.css";
 import Footer from "../components/Footer";
+import DownloadLink from "../components/DownloadLink";
 
 function OracleDecks() {
   // const [hoveredThumbnail, setHoveredThumbnail] = useState(null);
@@ -61,14 +62,12 @@ function OracleDecks() {
                 </div>
               </div>
             </div>
-            <div className="explanation-container">
+            {/* <div className="explanation-container">
               <div className="explanation">
                 <p className="question">not sure how it works?</p>
-                <p className="explanation-font">
-                  Click here for a free guide to making your own oracle cards.
-                </p>
+                <DownloadLink filePath="/images/banner.png" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
