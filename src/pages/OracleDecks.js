@@ -62,12 +62,12 @@ function OracleDecks() {
                 </div>
               </div>
             </div>
-            {/* <div className="explanation-container">
+            <div className="explanation-container">
               <div className="explanation">
                 <p className="question">not sure how it works?</p>
-                <DownloadLink filePath="/images/banner.png" />
+                <DownloadLink filePath="/images/FreeGuide.png" />
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
